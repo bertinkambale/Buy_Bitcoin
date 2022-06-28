@@ -1,8 +1,9 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "Poppins", sans-serif;
 }
-.first_block1{
+.first_block1 {
   border-bottom: 1px solid rgb(38, 92, 240);
   height: 700px;
 }
@@ -19,17 +20,17 @@ body {
   margin: auto;
   height: 90px;
 }
-.second_section{
+.second_section {
   width: 95%;
   margin: auto;
 }
-.second_section h1{
-  color:rgb(38, 92, 240);
+.second_section h1 {
+  color: rgb(38, 92, 240);
   font-size: 2.5rem;
 }
 
-.second_section p{
-  color:rgb(38, 92, 240);
+.second_section p {
+  color: rgb(38, 92, 240);
   font-size: 1.5rem;
 }
 
@@ -99,11 +100,11 @@ body {
 }
 .second_section img {
   padding-top: 50px;
-  width:580px;
-  height:300px;
-  border-radius:130px;
+  width: 580px;
+  height: 300px;
+  border-radius: 130px;
 }
-.Nordic{
+.Nordic {
   padding-top: 30px;
   display: flex;
   justify-content: space-between;
@@ -111,29 +112,29 @@ body {
   width: 90%;
   margin: auto;
 }
-.text h1{
+.text h1 {
   color: rgb(38, 92, 240);
   font-size: 2.5rem;
 }
-.text p{
+.text p {
   color: rgb(85, 83, 83);
   font-size: 1.5rem;
 }
-.text button{
-  padding:10px 20px;
+.text button {
+  padding: 10px 20px;
   font-size: 1.2rem;
   border-radius: 20px;
   border: 1px solid rgb(38, 92, 240);
-  color:rgb(38, 92, 240);
-  background-color:white;
+  color: rgb(38, 92, 240);
+  background-color: white;
 }
-.Nordic img{
+.Nordic img {
   height: 800px;
-  width:900px;
+  width: 900px;
   border-bottom-left-radius: 220px;
   border-bottom-right-radius: 220px;
   border-top-left-radius: 220px;
-  border-top-right-radius:220px;
+  border-top-right-radius: 220px;
 }
 
 @media screen and (max-width: 768px) {
@@ -142,7 +143,7 @@ body {
     width: 100%;
   }
 
-  .first_block1{
+  .first_block1 {
     border-bottom: 1px solid rgb(38, 92, 240);
     height: 1330px;
   }
@@ -220,11 +221,11 @@ body {
     display: none;
   }
   .second_section {
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     height: 1224px;
-    width:80%;
+    width: 80%;
     margin: auto;
   }
   .second_section img {
@@ -232,44 +233,44 @@ body {
     padding-left: 20px;
     width: 580px;
     border-radius: 200px;
-    height:300px;
+    height: 300px;
   }
-  .second_section video{
-    padding-bottom:30px;
+  .second_section video {
+    padding-bottom: 30px;
     width: 300px;
   }
-  .Nordic{
+  .Nordic {
     padding-top: 20px;
     padding-bottom: 20px;
     display: flex;
     flex-direction: column-reverse;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     width: 90%;
     margin: auto;
   }
-  .text h1{
+  .text h1 {
     color: rgb(38, 92, 240);
     font-size: 2.5rem;
   }
-  .text p{
+  .text p {
     color: rgb(85, 83, 83);
     font-size: 1.5rem;
   }
-  .text button{
-    padding:10px 20px;
+  .text button {
+    padding: 10px 20px;
     font-size: 1.2rem;
     border-radius: 20px;
     border: 1px solid rgb(38, 92, 240);
-    color:rgb(38, 92, 240);
-    background-color:white;
+    color: rgb(38, 92, 240);
+    background-color: white;
   }
-  .Nordic img{
+  .Nordic img {
     height: 800px;
-    width:500px;
+    width: 500px;
     border-bottom-left-radius: 220px;
     border-bottom-right-radius: 220px;
     border-top-left-radius: 220px;
-    border-top-right-radius:220px;
+    border-top-right-radius: 220px;
   }
 }
