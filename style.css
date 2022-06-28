@@ -1,0 +1,275 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.first_block1{
+  border-bottom: 1px solid rgb(38, 92, 240);
+  height: 700px;
+}
+
+.navigation_bar {
+  background-color: rgb(38, 92, 240);
+}
+
+.navbar_section1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  height: 90px;
+}
+.second_section{
+  width: 95%;
+  margin: auto;
+}
+.second_section h1{
+  color:rgb(38, 92, 240);
+  font-size: 2.5rem;
+}
+
+.second_section p{
+  color:rgb(38, 92, 240);
+  font-size: 1.5rem;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+  display: none;
+}
+
+.logo {
+  color: white;
+  font-size: 2.4rem;
+}
+
+.navbar_section1 ul {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar_section1 li {
+  list-style: none;
+  color: white;
+}
+
+.navbar_section1 li a {
+  display: flex;
+  gap: 10px;
+}
+.block_button {
+  display: flex;
+  gap: 10px;
+}
+.block_button button {
+  border-radius: 18px;
+  padding: 10px 20px;
+  background-color: white;
+  color: rgb(38, 92, 240);
+  border: none;
+}
+
+.block_button button:nth-child(3) {
+  border-radius: 18px;
+  padding: 10px 20px;
+  background-color: rgb(38, 92, 240);
+  color: white;
+  border: 1px solid white;
+  margin-right: -180px;
+}
+.english_button {
+  color: white;
+  display: flex;
+  gap: 10px;
+}
+
+.second_section {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  width: 80%;
+  height: 500px;
+  padding: 10px;
+}
+.second_section img {
+  padding-top: 50px;
+  width:580px;
+  height:300px;
+  border-radius:130px;
+}
+.Nordic{
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+.text h1{
+  color: rgb(38, 92, 240);
+  font-size: 2.5rem;
+}
+.text p{
+  color: rgb(85, 83, 83);
+  font-size: 1.5rem;
+}
+.text button{
+  padding:10px 20px;
+  font-size: 1.2rem;
+  border-radius: 20px;
+  border: 1px solid rgb(38, 92, 240);
+  color:rgb(38, 92, 240);
+  background-color:white;
+}
+.Nordic img{
+  height: 800px;
+  width:900px;
+  border-bottom-left-radius: 220px;
+  border-bottom-right-radius: 220px;
+  border-top-left-radius: 220px;
+  border-top-right-radius:220px;
+}
+
+@media screen and (max-width: 768px) {
+  .navigation_bar {
+    background-color: rgb(38, 92, 240);
+    width: 100%;
+  }
+
+  .first_block1{
+    border-bottom: 1px solid rgb(38, 92, 240);
+    height: 1330px;
+  }
+
+  .navbar_section1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+  }
+
+  .container {
+    display: block;
+  }
+
+  .logo {
+    color: white;
+    font-size: 2.4rem;
+  }
+  .bar1,
+  .bar2,
+  .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+    display: flex;
+  }
+
+  .navbar_section1 ul {
+    display: flex;
+    gap: 20px;
+    display: none;
+  }
+
+  .navbar_section1 li {
+    list-style: none;
+    color: white;
+    display: none;
+  }
+
+  .navbar_section1 li a {
+    display: flex;
+    gap: 10px;
+    display: none;
+  }
+  .block_button {
+    display: flex;
+    gap: 10px;
+    display: none;
+  }
+  .block_button button {
+    border-radius: 18px;
+    padding: 10px 20px;
+    background-color: white;
+    color: rgb(38, 92, 240);
+    border: none;
+    display: none;
+  }
+
+  .block_button button:nth-child(3) {
+    border-radius: 18px;
+    padding: 10px 20px;
+    background-color: rgb(38, 92, 240);
+    color: white;
+    border: 1px solid white;
+    display: none;
+  }
+  .english_button {
+    color: white;
+    display: flex;
+    gap: 10px;
+    display: none;
+  }
+  .second_section {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1224px;
+    width:80%;
+    margin: auto;
+  }
+  .second_section img {
+    padding-top: 50px;
+    padding-left: 20px;
+    width: 580px;
+    border-radius: 200px;
+    height:300px;
+  }
+  .second_section video{
+    padding-bottom:30px;
+    width: 300px;
+  }
+  .Nordic{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content:center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+  }
+  .text h1{
+    color: rgb(38, 92, 240);
+    font-size: 2.5rem;
+  }
+  .text p{
+    color: rgb(85, 83, 83);
+    font-size: 1.5rem;
+  }
+  .text button{
+    padding:10px 20px;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    border: 1px solid rgb(38, 92, 240);
+    color:rgb(38, 92, 240);
+    background-color:white;
+  }
+  .Nordic img{
+    height: 800px;
+    width:500px;
+    border-bottom-left-radius: 220px;
+    border-bottom-right-radius: 220px;
+    border-top-left-radius: 220px;
+    border-top-right-radius:220px;
+  }
+}
