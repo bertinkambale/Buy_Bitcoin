@@ -137,7 +137,7 @@ body {
   border-top-right-radius: 220px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
   .navigation_bar {
     background-color: rgb(38, 92, 240);
     width: 100%;
